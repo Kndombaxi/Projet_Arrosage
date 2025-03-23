@@ -12,7 +12,7 @@ export default function RootLayout() {
   // Utilisation de useEffect pour rediriger l'utilisateur vers la page /home après que le composant soit monté.
   useEffect(() => {
     // Redirection automatique vers la page d'accueil '/home' dès que le composant est rendu.
-    router.push("/home");
+    router.push("./home");
   }, [router]);  // Le tableau de dépendances contient 'router', donc l'effet se déclenche chaque fois que 'router' change.
 
   // Retour du JSX, c'est-à-dire la structure de l'interface utilisateur de ce composant.
