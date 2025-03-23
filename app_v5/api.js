@@ -3,7 +3,7 @@ const TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dGlsaXNhdGV1ciI6InBheWV0
 let ws;
 
 const connectWebSocket = () => {
-    ws = new WebSocket('ws://192.168.5.89:3006', [], {
+    ws = new WebSocket('wss://api.arrosage.cielnewton.fr/ws', [], {
         headers: { Authorization: `Bearer ${TOKEN}` }
     });
 
