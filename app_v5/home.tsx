@@ -49,7 +49,7 @@ export default function HomeScreen() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Bienvenue dans l'application d'arrosage intelligent</Text>
-      <Image source={require("../assets/images/background-image.jpg")} style={styles.image} />
+      <Image source={require("../assets/images/20250318_120829.jpg")} style={styles.image} />
       <View style={styles.statusContainer}>
         <Text style={styles.statusLabel}>État de l'arroseur :</Text>
         <Text style={[styles.status, action === "activer" ? styles.active : styles.inactive]}>
